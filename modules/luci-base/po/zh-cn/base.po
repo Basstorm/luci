@@ -2891,7 +2891,7 @@ msgid "Service Type"
 msgstr "服务类型"
 
 msgid "Services"
-msgstr "服务"
+msgstr "代理"
 
 msgid ""
 "Set interface properties regardless of the link carrier (If set, carrier "
