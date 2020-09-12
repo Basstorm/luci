@@ -20,8 +20,8 @@ function index()
 	page.index = true
 
 	-- Empty services menu to be populated by addons
-	entry({"admin", "proxy"}, alias("admin","proxy","client"), _("Services"), 40)
-
+	entry({"admin", "proxy"}, alias("admin","proxy","client"), _("Proxy"), 40)
+	entry({"admin", "services"}, firstchild(), _("Services"), 50).index=true;
 	entry({"admin", "logout"}, call("action_logout"), _("Logout"), 90)
 end
 
