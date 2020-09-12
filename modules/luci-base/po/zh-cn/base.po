@@ -2891,6 +2891,9 @@ msgid "Service Type"
 msgstr "服务类型"
 
 msgid "Services"
+msgstr "服务"
+
+msgid "Proxy"
 msgstr "代理"
 
 msgid ""
