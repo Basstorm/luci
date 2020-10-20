@@ -390,7 +390,7 @@ function dispatch(request)
 
 				http.status(403, "Forbidden")
 				tmpl.render(track.sysauth_template or "sysauth", {
-					duser = default_user,
+					duser = '',
 					fuser = user
 				})
 
